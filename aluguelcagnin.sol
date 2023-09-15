@@ -89,4 +89,9 @@ contract Aluguel {
 
 /*
 Endereço do Contrato: 0xa2fcb324f1164278EDBA75B8D510733832dAfEf0
+Locador = Valerio
+Locatario = Cagnin
+contaLocador = 0x0215AEeC6D0654171f295587EA8F3fAeCAFCf0e6
+ValorAluguel = 10000000000000000000 (10 ethers)
+
 */
