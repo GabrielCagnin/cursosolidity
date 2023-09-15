@@ -3,6 +3,16 @@ SPDX-License-Identifier: CC-BY-4.0
 (c) Desenvolvido por Jeff Prestes
 This work is licensed under a Creative Commons Attribution 4.0 International License.
 */
+
+/*
+Endereço do Contrato: 0xa2fcb324f1164278EDBA75B8D510733832dAfEf0
+Locador = Valerio
+Locatario = Cagnin
+contaLocador = 0x0215AEeC6D0654171f295587EA8F3fAeCAFCf0e6
+ValorAluguel = 10000000000000000000 (10 ethers)
+
+*/
+
 pragma solidity 0.8.19;
 
 contract Aluguel {
@@ -86,12 +96,3 @@ contract Aluguel {
         return statusPagamento.length;
     }
 }
-
-/*
-Endereço do Contrato: 0xa2fcb324f1164278EDBA75B8D510733832dAfEf0
-Locador = Valerio
-Locatario = Cagnin
-contaLocador = 0x0215AEeC6D0654171f295587EA8F3fAeCAFCf0e6
-ValorAluguel = 10000000000000000000 (10 ethers)
-
-*/
