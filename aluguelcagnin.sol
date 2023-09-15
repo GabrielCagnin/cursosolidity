@@ -28,7 +28,7 @@ contract Aluguel {
     3 - 04/2020 = true
     */
     address payable public contaLocador;
-    address public owner;
+    address public contaLocatario;
 
     constructor(    string memory _nomeLocador, 
                     string memory _nomeLocatario, 
@@ -38,7 +38,7 @@ contract Aluguel {
         locatario = _nomeLocatario;
         valor = _valorDoAluguel;
         contaLocador = _contaLocador;
-        owner = msg.sender;
+        contaLocatario = msg.sender;
     }
  
     function valorAtualDoAluguel() public view returns (uint256) {
